@@ -9,8 +9,6 @@
 .ralph/.response_analysis
 .ralph/.circuit_breaker_state
 .ralph/.circuit_breaker_history
-.ralph/.json_parse_result
-.ralph/.last_output_length
 
 # Ralph logs and generated docs
 .ralph/logs/*
@@ -44,9 +42,6 @@ target/
 .idea/
 *.swp
 *.swo
-
-# Claude Code local settings
-.claude/settings.local.json
 
 # Ralph backup directories (created by migration)
 .ralph_backup_*
